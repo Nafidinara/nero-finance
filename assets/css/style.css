@@ -2,6 +2,8 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+    background: #bcdee7 url("http://victory-design.ru/sandbox/codepen/profile_card/bg.png") no-repeat center center fixed;
+    background-size: 100% auto;
 }
 * {
 	margin: 0;
@@ -12,7 +14,7 @@ i {
 }
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo{
-	padding: 15px;
+	padding: 10px;
 	color: #fff;
 }
 .navbar-mainbg{
@@ -39,7 +41,7 @@ i {
     text-decoration: none;
     font-size: 15px;
     display: block;
-    padding: 20px 20px;
+    padding: 15px 20px;
     transition-duration:0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
@@ -165,3 +167,82 @@ i {
 		left: -25px;
 	}
 }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px !important;
+}
+  
+  /*Profile card 4*/
+  .profile-card-4 .card-img-block{
+      float:left;
+      width:100%;
+      height:100px;
+      overflow:hidden;
+    border-radius: 50px 50px 0 0 !important;
+
+  }
+  .profile-card-4 .card-body{
+      position:relative;
+  }
+  .profile-card-4 .profile {
+      position: absolute;
+      top: -62px;
+      left: 50%;
+      width:100px;
+      border: 3px solid rgba(255, 255, 255, 1);
+      margin-left: -50px;
+      border-radius: 50%;
+  }
+  .profile-card-4 .card-img-block{
+      position:relative;
+  }
+  .profile-card-4 .card-img-block > .info-box{
+      position:absolute;
+      background:rgba(225, 54, 11, 0.6);
+      width:100%;
+      height:100%;
+      color:#fff;
+      padding:20px;
+      text-align:center;
+      font-size:14px;
+     -webkit-transition: 1s ease;
+      transition: 1s ease;
+      opacity:0;
+  }
+  .profile-card-4 .card-img-block:hover > .info-box{
+      opacity:1;
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
+  }
+  .profile-card-4 h5{
+      font-weight:600;
+      color:#e12b0b;
+  }
+  .profile-card-4 .card-text{
+      font-weight:300;
+      font-size:15px;
+  }
+  .profile-card-4 .icon-block{
+      float:left;
+      width:100%;
+  }
+  .profile-card-4 .icon-block a{
+      text-decoration:none;
+  }
+  .profile-card-4 i {
+    display: inline-block;
+      font-size: 16px;
+      color: #d90be1;
+      text-align: center;
+      border: 1px solid #d90be1;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 50%;
+      margin:0 5px;
+  }
+  .profile-card-4 i:hover {
+    background-color:#d90be1;
+    color:#fff;
+  }
